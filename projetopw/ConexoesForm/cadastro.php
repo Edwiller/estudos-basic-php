@@ -1,5 +1,6 @@
 <?php
 
-    echo("Oi mundo");
+    $apelido = $_GET['Nome'];
+    echo("Oi $apelido");
 
 ?>
