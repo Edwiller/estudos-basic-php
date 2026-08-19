@@ -20,9 +20,9 @@
         $stmt->bindParam(4, $dtValidade);
 
         $stmt->execute();
-
         echo "Produto cadastrado com sucesso!";
-        echo "<a href='index.html'>Página inicial<a>";
+        echo "<a href='index.html'>Página inicial</a>";
+    
     }catch(PDOException $erro){
         echo "Erro: Erro na base de dados";
         echo $erro->getMessage();
